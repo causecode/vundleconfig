@@ -22,7 +22,7 @@ function! GetNiceBundleName(name)
     endfor
 endfunction
 
-com! -nargs=+         Bundle
+com! -nargs=+         Plugin
 \ call BundleWithConfig(<args>)
 
 func! vundleconfig#init(...) abort
